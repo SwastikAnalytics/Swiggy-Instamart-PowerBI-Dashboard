@@ -219,7 +219,7 @@ AVERAGE('Grocery shop'[Rating])
 
 ```
 
-![Swiggy Instamart Dashboard](Images/Swiggy_Dashboard.png)
+![Swiggy Instamart Dashboard](image/Dashboard.png)
 
 
 ```
