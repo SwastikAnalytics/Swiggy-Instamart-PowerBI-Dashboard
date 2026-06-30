@@ -130,10 +130,15 @@ Displays city-wise order contribution and shop-size distribution.
 Provides detailed business metrics including:
 
  Metric = {
+ 
     ("Total_Sales", NAMEOF('Grocery Shop'[Total_Sales]), 0),
+    
     ("Total_Order", NAMEOF('Grocery Shop'[Total_Order]), 1),
+    
     ("Avg_Sales", NAMEOF('Grocery Shop'[Avg_Sales]), 2),
+    
     ("Avg_Rating", NAMEOF('Grocery Shop'[Avg_Rating]), 3)
+    
 }
 
 * Total Sales               
