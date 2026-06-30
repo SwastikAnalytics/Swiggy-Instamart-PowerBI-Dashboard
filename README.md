@@ -270,6 +270,11 @@ The dashboard enables business users to monitor KPIs, identify trends, compare p
 
 **Swastik Kumar**
 
- **Data Analyst | Power BI | SQL | Excel | Python**
+**B.E. Computer Engineering**
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+**Data Analyst | Excel | SQL | Power BI | Python | Google Apps Script**
+
+GitHub: https://github.com/SwastikAnalytics
+
+linkedin: https://www.linkedin.com/in/swastik-kumar-01sep
+
