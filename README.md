@@ -220,7 +220,7 @@ AVERAGE('Grocery shop'[Rating])
 > Replace the image below with your dashboard screenshot.
 
 ```text
-images/Swiggy_Dashboard.png
+images/Dashboard.png
 ```
 
 Example:
