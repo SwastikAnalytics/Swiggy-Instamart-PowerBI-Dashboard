@@ -226,7 +226,7 @@ images/Dashboard.png
 Example:
 
 ```markdown
-![Dashboard](images/Swiggy_Dashboard.png)
+![Dashboard](images/Dashboard.png.png)
 ```
 
 ---
