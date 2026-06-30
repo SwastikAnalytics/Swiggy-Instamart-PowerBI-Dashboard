@@ -226,6 +226,8 @@ AVERAGE('Grocery shop'[Rating])
 
 # 📁 Project Structure
 
+```
+
 Swiggy-Instamart-Sales-Analysis/
 │
 ├── Dataset/
