@@ -217,11 +217,11 @@ AVERAGE('Grocery shop'[Rating])
 
 # 📷 Dashboard Screenshot
 
-```
+
 
 <img src="image/Dashboard.png" alt="Project Architecture" width="500">
 
-```
+
 
 # 📁 Project Structure
 
