@@ -86,16 +86,16 @@ The dataset contains information related to:
 | Power Query      | Data Cleaning & Transformation |
 | DAX              | Business Calculations          |
 | Excel            | Data Source                    |
-| Data Modeling    | Relationship Management        |
+
 
 ---
 
 # 📊 Dashboard KPIs
 
-* 💰 Total Sales
-* 📦 Total Orders
-* 💵 Average Sales
-* ⭐ Average Customer Rating
+* 💰 Total Sales(The owerall revenue generated from all items sold.)
+* 📦 Total Orders-Number of items(The total count of different items sold.)
+* 💵 Average Sales(The average revenue per sale.)
+* ⭐ Average Customer Rating(The average customer rating for items sold.)
 
 ---
 
@@ -129,12 +129,18 @@ Displays city-wise order contribution and shop-size distribution.
 
 Provides detailed business metrics including:
 
-* Shop Type
-* Total Sales
-* Average Sales
-* Orders
-* Ratings
+ Metric = {
+    ("Total_Sales", NAMEOF('Grocery Shop'[Total_Sales]), 0),
+    ("Total_Order", NAMEOF('Grocery Shop'[Total_Order]), 1),
+    ("Avg_Sales", NAMEOF('Grocery Shop'[Avg_Sales]), 2),
+    ("Avg_Rating", NAMEOF('Grocery Shop'[Avg_Rating]), 3)
+}
 
+* Total Sales               
+* Average Sales
+* Total Orders
+* Average Ratings
+  
 ---
 
 ### Slicers
@@ -153,10 +159,8 @@ The dataset was cleaned using Power Query.
 
 Performed tasks:
 
-* Removed duplicate records
+* Removed replace value
 * Corrected data types
-* Renamed columns
-* Removed unnecessary fields
 * Validated data quality
 * Standardized formatting
 
@@ -166,22 +170,22 @@ Performed tasks:
 
 ```DAX
 Total Sales =
-SUM(Swiggy[Sales])
+SUM('Grocery shop'[Sales])
 ```
 
 ```DAX
 Total Orders =
-COUNT(Swiggy[Order_ID])
+COUNTROWS('Grocery shop')
 ```
 
 ```DAX
 Average Sales =
-AVERAGE(Swiggy[Sales])
+AVERAGE('Grocery shop'[Sales])
 ```
 
 ```DAX
 Average Rating =
-AVERAGE(Swiggy[Rating])
+AVERAGE('Grocery shop'[Rating])
 ```
 
 ---
