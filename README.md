@@ -230,7 +230,7 @@ AVERAGE('Grocery shop'[Rating])
 Swiggy-Instamart-Sales-Analysis/
 │
 ├── Dataset/
-│   └── Swiggy_Data.xlsx
+│   └── Instamart_Data.xlsx
 │
 ├── Dashboard/
 │   └── Swiggy Dashboard.pbix
@@ -270,6 +270,6 @@ The dashboard enables business users to monitor KPIs, identify trends, compare p
 
 **Swastik Kumar**
 
-**Aspiring Data Analyst | Power BI | SQL | Excel | Python**
+ **Data Analyst | Power BI | SQL | Excel | Python**
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
