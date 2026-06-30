@@ -222,11 +222,10 @@ AVERAGE('Grocery shop'[Rating])
 ![Swiggy Instamart Dashboard](Images/Swiggy_Dashboard.png)
 
 
-``
+```
 
 # 📁 Project Structure
 
-```
 Swiggy-Instamart-Sales-Analysis/
 │
 ├── Dataset/
