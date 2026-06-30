@@ -219,8 +219,7 @@ AVERAGE('Grocery shop'[Rating])
 
 ```
 
-![Swiggy Instamart Dashboard](image/Dashboard.png)
-
+<img src="images/your-image-name.png" alt="Project Architecture" width="500">
 
 ```
 
