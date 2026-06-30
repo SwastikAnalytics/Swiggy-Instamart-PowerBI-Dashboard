@@ -217,19 +217,12 @@ AVERAGE('Grocery shop'[Rating])
 
 # 📷 Dashboard Screenshot
 
-> Replace the image below with your dashboard screenshot.
-
-```text
-images/Dashboard.png
 ```
 
-Example:
+![Swiggy Instamart Dashboard](Images/Swiggy_Dashboard.png)
 
-```markdown
-![Dashboard](images/Dashboard.png)
-```
 
----
+``
 
 # 📁 Project Structure
 
