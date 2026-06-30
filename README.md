@@ -219,7 +219,7 @@ AVERAGE('Grocery shop'[Rating])
 
 
 
-<img src="image/Dashboard.png" alt="Project Architecture" width="500">
+<img src="image/Dashboard.png" alt="Project Architecture" width="1000">
 
 
 
